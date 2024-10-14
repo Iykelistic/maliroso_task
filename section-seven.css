@@ -1,0 +1,31 @@
+#section-seven {
+  padding: 5%;
+  padding-right: 0;
+  position: relative;
+}
+
+#section-seven .container .first__text {
+  width: 40%;
+  position: relative;
+}
+
+.first__text {
+  font-family: Clash Display;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 61.12px;
+  text-align: left;
+  color: #000;
+  position: relative;
+}
+
+.stroke__img {
+  position: absolute !important;
+  width: 100px;
+  top: 6.5%;
+  left: 20%;
+}
+
+.msc-details {
+  margin-top: 20px;
+}

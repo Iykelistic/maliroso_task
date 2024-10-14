@@ -1,0 +1,39 @@
+#section-five {
+  padding: 5%;
+}
+#section-five .heading {
+  position: relative;
+  width: 50%;
+}
+
+#section-five .heading h2 {
+  font-family: Clash Display;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: left;
+}
+#section-five p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26.9px;
+  text-align: left;
+}
+#section-five .heading img:first-of-type {
+  position: absolute;
+  right: 40px;
+  top: 15px;
+}
+#section-five .heading img:last-of-type {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+#video__container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
