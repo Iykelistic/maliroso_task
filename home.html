@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="section-eight.css">
     <link rel="stylesheet" href="section-nine.css">
     <link rel="stylesheet" href="section-ten.css">
+    <script src="index.js"></script>
 <body>
     <Nav>
         <div class="logo">
@@ -395,6 +396,15 @@
                     <div class="scroll">
                         <img src="assets/formkit_down.svg" alt="scroll__icon" class="scroll_icon">
                     </div>
+
+                    <script>
+                        document.querySelector('.scroll').addEventListener('click', function() {
+                            window.scrollTo({
+                                top: 0,
+                                behavior: 'smooth' // This provides a smooth scrolling effect
+                            });
+                        });
+                    </script>
                     
                 </div>
             </div>
